@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #f0f4f8;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px 20px;
+  background: #003366;
+  color: white;
+  border-radius: 10px;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  object-fit: cover;
+  border: 3px solid white;
+}
+
+.subtitle {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #cccccc;
+}
+
+nav {
+  margin-top: 15px;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  margin: 25px auto;
+  border-radius: 10px;
+  max-width: 800px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+  color: #003366;
+  margin-bottom: 15px;
+}
+
+.card ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  background: #003366;
+  color: white;
+  border-radius: 10px;
+}
+body.light-mode {
+  background-color: #f0f4f8;
+  color: #333;
+}
+
+body.dark-mode {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+}
+
+header,
+footer {
+  border-radius: 10px;
+}
+
+body.light-mode header,
+body.light-mode footer {
+  background: #003366;
+  color: white;
+}
+
+body.dark-mode header,
+body.dark-mode footer {
+  background: #111;
+  color: #eee;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+body.light-mode nav a {
+  color: white;
+}
+
+body.dark-mode nav a {
+  color: #90caf9;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  margin: 25px auto;
+  border-radius: 10px;
+  max-width: 800px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+body.dark-mode .card {
+  background: #2c2c2c;
+  box-shadow: 0 4px 8px rgba(255,255,255,0.05);
+}
+
+.mode-toggle {
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  color: inherit;
+}

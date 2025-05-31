@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Degala Nishant | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-mode">
+  <header>
+    <img src="profile.jpg" alt="Degala Nishant" class="profile-pic">
+    <h1>Degala Nishant</h1>
+    <p class="subtitle">Full Stack Developer | ML Enthusiast</p>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#skills">Skills</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <button onclick="toggleMode()" class="mode-toggle">🌓</button>
+    </nav>
+  </header>
+
+  <section id="about" class="card">
+    <h2>About Me</h2>
+    <p>
+      I'm Degala Nishant, a passionate Full Stack Developer and Machine Learning enthusiast. I work with technologies like Java, Spring Boot, React, and MySQL to create scalable and user-friendly web applications. I also enjoy applying ML techniques using Python, Scikit-learn, and River.
+    </p>
+  </section>
+
+  <section id="skills" class="card">
+    <h2>Skills</h2>
+    <ul>
+      <li><strong>Frontend:</strong> HTML, CSS, JavaScript, React</li>
+      <li><strong>Backend:</strong> Java, Spring Boot</li>
+      <li><strong>Databases:</strong> MySQL</li>
+      <li><strong>Machine Learning:</strong> Python, Scikit-learn, River, Pandas</li>
+      <li><strong>Tools:</strong> Git, GitHub, IntelliJ, VSCode, Postman</li>
+    </ul>
+  </section>
+
+  <section id="certificates" class="card">
+    <h2>Certificates</h2>
+    <ul>
+      <li>Developing Front-End Apps with React – IBM (May 2025)</li>
+      <li>Getting Started with Git and GitHub – IBM (May 2025)</li>
+      <li>Introduction to HTML, CSS & JavaScript – IBM (May 2025)</li>
+      <li>Introduction to Cloud Computing – IBM (May 2025)</li>
+      <li>Introduction to Software Engineering – IBM (May 2025)</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="card">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Library Management System</h3>
+      <p>A full-stack system for managing library operations, with user and admin roles.</p>
+      <p><strong>Tech:</strong> React.js, Spring Boot, MySQL</p>
+    </div>
+    <div class="project">
+      <h3>Continuous Soccer Pass Detection</h3>
+      <p>Real-time pass detection using traditional and streaming machine learning models.</p>
+      <p><strong>Tech:</strong> Python, Scikit-learn, River, Pandas</p>
+    </div>
+  </section>
+
+  <section id="contact" class="card">
+    <h2>Contact</h2>
+    <p><strong>Email:</strong> <a href="mailto:nishant.degala@gmail.com">nishant.degala@gmail.com</a></p>
+    <p><strong>Phone:</strong> +91-9398602874</p>
+    <p><strong>GitHub:</strong> <a href="https://github.com/NishantDegala" target="_blank">github.com/NishantDegala</a></p>
+    <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/nishant-degala" target="_blank">linkedin.com/in/nishant-degala</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Degala Nishant. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function toggleMode() {
+      document.body.classList.toggle('dark-mode');
+      document.body.classList.toggle('light-mode');
+    }
+  </script>
+
+</body>
+</html>
